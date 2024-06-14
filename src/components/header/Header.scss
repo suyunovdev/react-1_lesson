@@ -1,0 +1,62 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 19px 0;
+  background-color: #fff;
+  z-index: 100;
+  .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      .logo-word {
+        color: #173a56;
+      }
+    }
+    .word {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      a {
+        text-decoration: none;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #22343d;
+        transition: 0.4s;
+        &:hover {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 28px;
+          text-align: left;
+          color: #173a56;
+        }
+      }
+      button {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        width: 102px;
+        height: 43px;
+        gap: 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #bcd0e5;
+        transition: 0.4s;
+        border-radius: 4px;
+        cursor: pointer;
+        &:hover {
+          background: #02897a;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

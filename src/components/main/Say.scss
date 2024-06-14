@@ -1,0 +1,86 @@
+.say {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .say-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    h1 {
+      color: #22343d;
+    }
+    p {
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0.20000000298023224px;
+      text-align: center;
+      width: 537px;
+      height: 56px;
+      color: #22343d;
+    }
+  }
+  .say-box {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 50px;
+    .box1 {
+      width: 327px;
+      height: 236px;
+      border-radius: 5px;
+      border: 1px 0px 0px 0px;
+      border: 1px solid #dedede;
+      img {
+        margin-left: 20px;
+        margin-top: 28px;
+        margin-bottom: 16px;
+      }
+      p {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.20000000298023224px;
+        width: 275px;
+        height: 84px;
+        color: #737373;
+        margin-left: 20px;
+      }
+      .people {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -170px;
+
+        img {
+        }
+        h5 {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 24px;
+          letter-spacing: 0.20000000298023224px;
+          width: 81px;
+          height: 24px;
+          color: #02897a;
+          margin-left: 18px;
+        }
+        p {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0.20000000298023224px;
+
+          width: 64px;
+          height: 24px;
+          color: #22343d;
+        }
+      }
+    }
+  }
+}
